@@ -62,19 +62,19 @@ button.profile-card-example-button {
 
 button.profile-card-example-button:focus {
   outline: none;
-  background: #000000;
+  background: rgb(102, 171, 101);
 }
 
 button.profile-card-example-button svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #aa0404;
+  stroke: #fdf9c7;
   transition-delay: .25s;
 }
 
 button.profile-card-example-button:focus svg {
-  stroke: rgba(0, 239, 255, 1);
+  stroke: #fdf9c7;
 }
 
 button.profile-card-example-button svg:nth-of-type(2) {
